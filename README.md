@@ -1,5 +1,20 @@
 # ECE 517 Project 2
 
+# Overview
+
+This is a course enrollment system. There are 3 different users - Student, Instructor, Admin.
+Each user has multiple privilages which are mentioned below.
+
+This system is built on Ruby on Rails.
+
+To have this system in your local, you need to have ruby on rails installed in your machine. Once it is done, run the below commands
+
+1. Clone the repository
+2. cd into the repository
+3. run `bundle install`
+4. run `rake db:migrate`
+5. run `rails s`
+
 # Admin Credentials
 
 email:    aksaks@ncsu.edu
@@ -31,7 +46,3 @@ If Student is deleted, all his Enrollments and Waitlists are automatically destr
 If Course is deleted, all the Enrollments and Waitlists of this course are automatically destroyed. To check this login as admin and check the "All Enrollments" and "All Waitlists" button after deletion.
 
 Students cannot access other users profiles by changing the URL.
-
-# Testing
-
-Testing is done for Enrollment model
